@@ -1,0 +1,8 @@
+How to use
+
+Just execute the following command
+
+~/myprog/src/kaldi/scritp/start-asr-robocup-server.py*
+
+
+src/kaldi.cpp is based on online2-wav-nnet2-latgen-faster.cc

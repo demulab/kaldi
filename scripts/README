@@ -1,0 +1,5 @@
+These scripts are based on Sirius as follows
+
+1. How to use
+(1) ~/src/jasper/jasper.py
+(2) ./start-asr-robocup-server.sh
