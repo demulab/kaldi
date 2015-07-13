@@ -45,7 +45,7 @@ target_link_libraries(kaldi  ${catkin_LIBRARIES}
    kaldi-online2.a kaldi-ivector.a kaldi-nnet2.a kaldi-lat.a 
    kaldi-decoder.a  kaldi-cudamatrix.a kaldi-feat.a kaldi-transform.a 
    kaldi-gmm.a  kaldi-thread.a kaldi-hmm.a kaldi-tree.a kaldi-matrix.a 
-   kaldi-util.a kaldi-base.a -lfst  -lfstscript libcublas.so libcudart.so 
+   kaldi-util.a kaldi-base.a libfst.a  libfstscript.a libcublas.so libcudart.so 
    libatlas.so.3 libf77blas.so.3 libcblas.so.3 liblapack_atlas.so.3 libdl.so
  )
 
