@@ -21,7 +21,6 @@ set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS};-O3 -gencode arch=compute_50,code=sm_50  
 
 
 catkin_package(
-  INCLUDE_DIRS include
   LIBRARIES kaldi
   CATKIN_DEPENDS roscpp rospy std_msgs
   DEPENDS system_lib
